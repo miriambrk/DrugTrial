@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Pharmaceutical Trial</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="row">
+    <hr id="hr">
+  </div>
+
+  <div class="intro">
+    <h1>Pymaceutical - A Hypothetical Drug Trial Analysis</h1>
+
+    <h4>Purpose</h4>
+    <p class="black-para">
+      The purpose of this project was to analyze a hypothetical drug trial. Two data files were provided, with clinical trial data.
+      I looked at the tumor response to the drugs, the survival rate, how much the tumors spread, and the volume of tumor change.
+    </p>
+    <h4>Technologies Used</h4>
+    <p class="black-para">
+      <ol>
+        <li>I used Pandas and Python to read, aggregate, analyze, and interpret the data from two CSV files.</li>
+        <li>I then used matplotlib and Seaborn to build graphs and charts to show the results and analysis of the drug trial.</li>
+      </ol>
+    </p>
+    <h4>Analysis</h4>
+    <ol>
+      <li>The drug Capomulin had the most favorable results.
+        Average tumor volumes shrunk, there was lower metastatic spread, and fewer mice died than in the other treatments under analysis,
+        including the placebo.</li>
+      <li>Responses to Infubinol and Ketapril were very similar in average tumor volume change, metastatic spread and mouse survival.</li>
+      <li>The placebo had very similar results to Infubinol and Ketapril in all areas analyzed.</li>
+    </ol>
+  </div>
+
+  <br>
+  <div class="row">
+    <hr id="hr">
+  </div>
+
+  <!-- Creates the Overall Grid -->
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-6 col-md-6">
+        <div class="thumbnail">
+          <img src="Response.png" alt="Tumor Response to Treatment">
+          <div class="caption">
+            <h3>Tumor Response to Treatment</h3>
+            <p>This graph shows that mice taking Capomulin saw the volume of their tumors shrink, while all mice taking the other two drugs and the placebo saw their tumor volume grow.
+              The graph was built using matplotlib, and includes error bars for the standard error for the means.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail">
+            <img src="Survival.png" alt="Survival Rate">
+            <div class="caption">
+              <h3>Survival Rate</h3>
+              <p>This graph shows that more mice taking Capomulin survived, while mice taking the other two drugs and the placebo died at a faster rate.
+                The graph was built using matplotlib.
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-6">
+        <div class="thumbnail">
+          <img src="Spread.png" alt="Metastatic Spread">
+          <div class="caption">
+            <h3>Metastatic Spread</h3>
+            <p>This graph shows that all tumors had metastatic spread, regardless of the treatment. Mice taking Capomulin had the slowest metastatic spread,
+              while mice taking the placebo had the fastest spread, as would be expected.
+              The graph was built using matplotlib, and includes error bars for the standard error for the means.
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-6">
+        <div class="thumbnail">
+          <img src="Tumor-Vol-Change.png" alt="Tumor Volume Change">
+          <div class="caption">
+            <h3>Percent Change in Tumor Volume</h3>
+            <p>This graph shows the percent change in tumor volume over the course of the trial. Mice taking Capomulin saw the volume of their tumors shrink by 19%,
+              while all mice taking the other two drugs and the placebo saw their tumor volume grow between 46 and 57%.
+              The graph was built using Seaborn.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <div class="row">
+      <hr id="hr">
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12" "col-lg-12">
+
+        <h6>Copyright &copy; Miriam 2017</h6>
+      </div>
+
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
