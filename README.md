@@ -1,4 +1,7 @@
 # drugtrial
+
+This can be viewed at: http://miriamberkowitz.com/drugtrial/index.html
+
 Display of hypothetical drug trial data analysis. The data and graphs are from the Pymaceuticals homework (see details below). 
 Here the results are displayed on a webpage using HTML, CSS and Bootstrap.
 
