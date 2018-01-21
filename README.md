@@ -14,5 +14,5 @@ a scatter plot that shows how the number of metastatic (cancer spreading) sites 
 a scatter plot that shows the number of mice still alive through the course of treatment (Survival Rate)
 a bar graph that compares the total % tumor volume change for each drug across the full 45 days.
 
-![metastatic spread](spread.png "metastatic spread")
+![metastatic spread](Spread.png "metastatic spread")
 
