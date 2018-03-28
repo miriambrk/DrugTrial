@@ -2,10 +2,10 @@
 
 This can be viewed at: http://miriamberkowitz.com/DrugTrial
 
-Display of hypothetical drug trial data analysis. The data and graphs are from the Pymaceuticals homework (see details below). 
+Display of hypothetical drug trial data analysis. The data and graphs are from the Pymaceuticals homework project (code can be found in ClinicalTrialViz repository). 
 Here the results are displayed on a webpage using HTML, CSS and Bootstrap.
 
-Pymaceuticals - a hypothetical pharmaceutical company
+Pymaceuticals - a hypothetical pharmaceutical company 
 
 Reads the data files (CSV format) with drug trial information, and use Pandas and matplotlib and/or Seaborn to plot the data. Observable trends are documented. Compares how four different treatments work.
 
